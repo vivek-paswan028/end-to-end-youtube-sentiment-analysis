@@ -88,8 +88,8 @@ jobs:
          
       - name: Stop and remove container if running
         run: |
-        docker stop cnncls || true
-        docker rm cnncls || true
+         docker stop cnncls || true
+         docker rm cnncls || true
 
        
       - name: Run Docker Image to serve users
